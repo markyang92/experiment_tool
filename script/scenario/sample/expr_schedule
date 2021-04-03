@@ -1,0 +1,9 @@
+#[cmd]\t[start]\t[end]\t[env1;env2..]\t[app information]
+# ** HOW TO NAME APP INFORMATION? **
+#**	WhatKindOfApp_[SOME]_[INFORMATIONS]
+#..Ex)
+#  * clmatmulNativeCpu_16_1024 
+#  * clmatmulHybridclGPU_16_1024_-A_-B
+#  * ThumbHybridclCpu_-A_-B
+#  * ThumbHybridclGpu_-A_-B
+/media/experiment/example/convolution/convolution_LG	1	200	LD_PRELOAD=/media/experiment/gpgpu_sera/libHybridCL.so	convolutionHybridclGPU_-A_-B

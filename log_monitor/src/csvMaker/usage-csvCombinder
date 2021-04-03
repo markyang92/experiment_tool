@@ -1,0 +1,7 @@
+Usage: csvCombinder.py <-path PATH> [-c <Y|N> | -g <Y|N>]
+ 
+ -path PATH		처리할 csv 파일 디렉터리 path
+options:
+ -c			PATH에 여러 csv를 모아 하나의 result.csv로 만들 디렉터리
+ -g			PATH로 주어진 result.csv를 가지고 graph 작성
+

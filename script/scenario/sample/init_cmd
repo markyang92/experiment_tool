@@ -1,0 +1,9 @@
+    #기본적으로 돌릴 ffmpeg 디렉터리 등록
+    ffmpeg_path=os.getcwd()+'/../../ffmpeg_ahn/'
+    os.system('export PATH=$PATH:'+ffmpeg_pa록h)
+
+    app_path=os.getcwd()+'/../../FFmpeg/'
+    os.system('export PATH=$PATH:'+app_path)
+    app_path=app_path+'thumbnail_mp4_hybridcl_gpu.py'
+
+    app_path2=os.getcwd()+'/shared_memory'
